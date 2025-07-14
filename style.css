@@ -1,0 +1,42 @@
+h2{
+    color:orange;
+}
+h1{
+    background:linear-gradient(100deg,yellow,red);
+    -webkit-background-clip:text;
+    background-clip:text;
+    color:transparent;
+}
+body{
+    background:linear-gradient(136deg,black,blue,grey);
+    color:#fff;
+    min-height:100vh;
+}
+.sup{
+    border:2px solid black;
+    border-radius:15px;
+    border-color:white;
+}
+.sup:hover{
+    transform:translateY(-15px);
+    box-shadow:0 0 15px white,0 0 30px white;
+    background:rgba(255,255,255,0.2);
+}
+#but{
+    width:65%;
+    padding:10px;
+    border-color:brown;
+    border-radius:50px;
+    background-color:transparent;
+    color:brown;
+}
+#but:hover{
+    background:royalblue;
+    color:white;
+    box-shadow:0 0 15px yellow,0 0 30px yellow;
+}
+footer{
+    text-align:center;
+    padding:3rem 0;
+    position:relative;
+}
